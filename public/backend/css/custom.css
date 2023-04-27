@@ -1,0 +1,44 @@
+ .dropify-wrapper {
+     height: 166px;
+     width: 61%;
+ }
+
+ .dropify-wrapper .dropify-preview .dropify-infos .dropify-filename-inner {
+     font-size: 12px;
+     font-weight: 400;
+     padding: 2px;
+ }
+
+ 
+.datainputs{
+  margin-top:20px;
+}
+.datainputs input{
+    font-size: 18px;
+    line-height: 21px;
+    color: #3D3D3D;
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 1px #D8D8D8;
+    margin: 0px 30px 20px 0px !important;
+  }
+input:focus{
+  outline:none;
+}
+.add_input, .inputRemove{
+  display: inline-block;
+  color:#3d3d3d;
+  text-align:center;
+  text-decoration:none;
+  width:auto;
+  height:40px;
+  line-height:40px;
+  border:2px solid #3d3d3d;
+  padding:0px 15px;
+  border-radius: 5px;
+}
+.inputRemove{
+cursor:pointer;
+}
